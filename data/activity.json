@@ -16,5 +16,29 @@
     "action": "added a task",
     "info": "D",
     "when": "2026-04-08T10:13:56.616Z"
+  },
+  {
+    "id": "1789936560410",
+    "action": "test-api",
+    "info": "testing the activity route",
+    "when": "2026-09-20T20:36:00.475Z"
+  },
+  {
+    "id": "a139f1ab-78dc-47be-8113-bd8b69ba9a07",
+    "action": "TASK_CREATED",
+    "info": "Task \"Build Reports API\" was created",
+    "when": "2026-09-20T23:34:24.450Z"
+  },
+  {
+    "id": "4713283a-b24a-4a43-9c79-3b31851e3e5c",
+    "action": "TASK_UPDATED",
+    "info": "Task \"Build Reports API\" was updated",
+    "when": "2026-09-20T23:35:24.132Z"
+  },
+  {
+    "id": "6cfb0fb3-6f6e-4840-abcc-7d8c4d755d09",
+    "action": "TASK_DELETED",
+    "info": "Task ID 13c62ac9-f7a9-4cf1-8561-7847b7be1b57 was deleted",
+    "when": "2026-09-20T23:36:06.859Z"
   }
 ]
