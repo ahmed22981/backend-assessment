@@ -26,5 +26,12 @@
     "status": "done",
     "createdAt": "2026-09-20T20:35:00.150Z",
     "updatedAt": "2026-09-20T20:35:00.150Z"
+  },
+  {
+    "id": "6ae2905c-2a8b-4f24-bca9-032bd9a509c5",
+    "title": "Test task from Thunder Client",
+    "status": "todo",
+    "createdAt": "2026-09-21T18:36:35.309Z",
+    "updatedAt": "2026-09-21T18:36:35.309Z"
   }
 ]

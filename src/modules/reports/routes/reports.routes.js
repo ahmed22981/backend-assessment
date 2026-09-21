@@ -5,7 +5,7 @@ const reportController = require("../controllers/reports.controller");
 
 const reportsRouter = express.Router();
 
-reporstRouter.get(
+reportsRouter.get(
   "/tasks-summary",
   asyncHandler(reportController.getTasksSummary),
 );
