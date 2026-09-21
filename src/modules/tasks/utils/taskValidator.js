@@ -38,7 +38,7 @@ function normalizeTitleIfPresent(payload, normalized) {
   normalized.title = trimmedTitle;
 }
 
-function normalizeCompletedIfPresent(payload, normalized) {
+function normalizeStatusIfPresent(payload, normalized) {
   if (!Object.hasOwn(payload, "status")) {
     return;
   }
@@ -59,7 +59,7 @@ function validateCreateTask(payload) {
 
   const normalized = {};
   normalizeTitleIfPresent(payload, normalized);
-  normalizeCompletedIfPresent(payload, normalized);
+  normalizeStatusIfPresent(payload, normalized);
 
   if (!Object.hasOwn(normalized, "title")) {
     throw new HttpError(400, '"title" is required.');
@@ -78,7 +78,7 @@ function validateUpdateTask(payload) {
 
   const normalized = {};
   normalizeTitleIfPresent(payload, normalized);
-  normalizeCompletedIfPresent(payload, normalized);
+  normalizeStatusIfPresent(payload, normalized);
 
   if (Object.keys(normalized).length === 0) {
     throw new HttpError(400, "Provide at least one updatable field.");
